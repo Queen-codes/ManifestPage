@@ -1,585 +1,586 @@
-    .container-banner {
-        width: 768px;
-        height: 458px;
-        left: 0px;
-        top: 20px;
-        position: absolute;
-    }
-    
-    img {
-        width: 754px;
-    }
-    
-    .imgg {
-        width: 768px;
-        height: 458px;
-        left: 0px;
-        top: 96px;
-    }
-    
-    h1 {
-        font-family: Poppins;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 54px;
-        line-height: 81px;
-        letter-spacing: -0.04em;
-        color: #00B9BC;
-        text-align: left;
-    }
-    
-    h3 {
-        font-family: Poppins;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 24px;
-        line-height: 36px;
-        text-align: center;
-        color: #444444;
-        text-align: left;
-    }
-    
-    p {
-        font-family: Poppins;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 24px;
-        line-height: 36px;
-        text-align: center;
-        color: #444444;
-        text-align: left;
-    }
-    
-    .promise h3 {
-        width: 655px;
-        height: 96px;
-        left: 56px;
-        top: 626px;
-    }
-    
-    .promise p {
-        width: 496px;
-        height: 96px;
-        left: 472px;
-        top: 1260px;
-        color: white;
-    }
-    
-    #grid {
-        display: grid;
-    }
-    
-    hr {
-        display: none;
-    }
-    /* MEDIA QUERY */
-    
-    @media only screen and (min-width: 1000px) {
-        body {
-            overflow-x: hidden;
-            height: 100%;
-        }
-        .contain-banner img {
-            background-color: #048D8F;
-            position: absolute;
-            width: 1440px;
-            height: 458.44px;
-            left: 0px;
-            top: 96px;
-            background: url("images/Rectangle 4.jpg"), #048D8F;
-        }
-        h3 {
-            font-family: Poppins;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 20px;
-            line-height: 164%;
-            display: flex;
-            align-items: center;
-            color: #000000;
-        }
-        h1 {
-            font-family: Poppins;
-            font-style: normal;
-            font-weight: bold;
-            font-size: 54px;
-            line-height: 81px;
-            letter-spacing: -0.04em;
-            color: #00B9BC;
-        }
-        .promise p {
-            position: absolute;
-            width: 496px;
-            height: 96px;
-            left: 472px;
-            top: 260px;
-            font-family: Poppins;
-            font-style: normal;
-            font-weight: bold;
-            font-size: 81px;
-            line-height: 121px;
-            letter-spacing: -0.04em;
-            color: #FFFFFF;
-        }
-        .promise h3 {
-            position: absolute;
-            width: 753px;
-            height: 96px;
-            left: 344px;
-            top: 608px;
-        }
-        .contain-edu {
-            display: flex;
-        }
-        .education {
-            position: absolute;
-            width: 560px;
-            height: 660px;
-            left: 125px;
-            top: 746px;
-        }
-        .text-edu h1 {
-            width: 263px;
-            height: 81px;
-            left: 774px;
-            top: 720px;
-            line-height: 81px;
-            letter-spacing: -0.04em;
-            position: absolute;
-        }
-        #edhr {
-            position: absolute;
-            width: 128.25px;
-            height: 0px;
-            left: 774px;
-            top: 820px;
-            border: 2px solid #F9A11B;
-        }
-        .text-edu p {
-            position: absolute;
-            width: 569px;
-            height: 97px;
-            left: 774px;
-            top: 840px;
-            font-family: Poppins;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 20px;
-            line-height: 164%;
-            color: #000000;
-        }
-        .text-edu h3 {
-            position: absolute;
-            width: 534px;
-            height: 524px;
-            left: 774px;
-            top: 906px;
-        }
-        .contain-health {
-            display: flex;
-        }
-        .healthcare {
-            position: absolute;
-            width: 560px;
-            height: 650px;
-            left: 776px;
-            top: 1540px;
-        }
-        .text-health h1 {
-            position: absolute;
-            width: 290px;
-            height: 81px;
-            left: 128px;
-            top: 1540px;
-        }
-        #hehr {
-            position: absolute;
-            width: 128.25px;
-            height: 0px;
-            left: 128px;
-            top: 1650px;
-            border: 2px solid #F9A11B;
-        }
-        .text-health h3 {
-            position: absolute;
-            width: 606px;
-            height: 532px;
-            left: 124px;
-            top: 1661px;
-            line-height: 40px;
-        }
-        .contain-economy {
-            display: flex;
-        }
-        .economy {
-            position: absolute;
-            width: 560px;
-            height: 650px;
-            left: 124px;
-            top: 2350.28px;
-        }
-        .text-eco h1 {
-            position: absolute;
-            width: 246px;
-            height: 81px;
-            left: 772px;
-            top: 2342px;
-        }
-        #echr {
-            position: absolute;
-            width: 128.25px;
-            height: 0px;
-            left: 772px;
-            top: 2445px;
-            border: 2px solid #F9A11B;
-        }
-        .text-eco p {
-            position: absolute;
-            width: 560px;
-            height: 403px;
-            left: 772px;
-            top: 2469px;
-            font-family: Poppins;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 20px;
-            line-height: 164%;
-            color: #000000;
-        }
-        .text-eco h3 {
-            position: absolute;
-            width: 560px;
-            height: 403px;
-            left: 772px;
-            top: 2569px;
-        }
-        .contain-agric {
-            display: flex;
-        }
-        .farmlands {
-            position: absolute;
-            width: 560px;
-            height: 650px;
-            left: 780px;
-            top: 3146px;
-        }
-        .text-agric h1 {
-            position: absolute;
-            width: 294px;
-            height: 81px;
-            left: 132px;
-            top: 3146px;
-        }
-        #aghr {
-            position: absolute;
-            width: 128.25px;
-            height: 0px;
-            left: 132px;
-            top: 3257px;
-            border: 2px solid #F9A11B;
-        }
-        .text-agric p {
-            position: absolute;
-            width: 604px;
-            height: 165px;
-            left: 132px;
-            top: 3264px;
-            font-family: Poppins;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 20px;
-            line-height: 164%;
-            color: #000000;
-        }
-        .text-agric h3 {
-            position: absolute;
-            width: 577px;
-            height: 349px;
-            left: 129px;
-            top: 3448px;
-            line-height: 40px;
-        }
-        .contain-power {
-            display: flex;
-        }
-        .powerlines {
-            position: absolute;
-            width: 560px;
-            height: 650px;
-            left: 129px;
-            top: 3938px;
-        }
-        .text-power h1 {
-            position: absolute;
-            width: 163px;
-            height: 81px;
-            left: 784px;
-            top: 3910px;
-        }
-        #pohr {
-            position: absolute;
-            width: 128.25px;
-            height: 0px;
-            left: 784px;
-            top: 4011px;
-            border: 2px solid #F9A11B;
-        }
-        .text-power p {
-            position: absolute;
-            width: 560px;
-            height: 99px;
-            left: 782px;
-            top: 4047px;
-            font-family: Poppins;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 20px;
-            line-height: 164%;
-            color: #000000;
-        }
-        .text-power h3 {
-            position: absolute;
-            width: 561px;
-            height: 426px;
-            left: 781px;
-            top: 4172px;
-            line-height: 40px;
-        }
-        .contain-water {
-            display: flex;
-        }
-        .watersupply {
-            position: absolute;
-            width: 560px;
-            height: 650px;
-            left: 779px;
-            top: 4724px;
-        }
-        .text-water h1 {
-            position: absolute;
-            width: 353px;
-            height: 81px;
-            left: 131px;
-            top: 4724px;
-        }
-        #wahr {
-            position: absolute;
-            width: 128.25px;
-            height: 0px;
-            left: 131px;
-            top: 4830px;
-            border: 2px solid #F9A11B;
-        }
-        .text-water p {
-            position: absolute;
-            width: 604px;
-            height: 80px;
-            left: 131px;
-            top: 4852px;
-            line-height: 70px;
-            font-family: Poppins;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 20px;
-            line-height: 164%;
-            color: #000000;
-        }
-        .text-water h3 {
-            position: absolute;
-            width: 608px;
-            height: 442px;
-            left: 127px;
-            top: 4932px;
-        }
-        .contain-security {
-            display: flex;
-        }
-        .secure {
-            position: absolute;
-            width: 560px;
-            height: 650px;
-            left: 127px;
-            top: 5516px;
-        }
-        .text-security h1 {
-            position: absolute;
-            width: 216px;
-            height: 81px;
-            left: 782px;
-            top: 5501px;
-            font-family: Poppins;
-            font-style: normal;
-            font-weight: bold;
-            font-size: 54px;
-            line-height: 81px;
-            letter-spacing: -0.04em;
-            color: #00B9BC;
-        }
-        #sehr {
-            position: absolute;
-            width: 128.25px;
-            height: 0px;
-            left: 782px;
-            top: 5610px;
-            border: 2px solid #F9A11B;
-        }
-        .text-security p {
-            position: absolute;
-            width: 560px;
-            height: 198px;
-            left: 785px;
-            top: 5623px;
-            font-family: Poppins;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 20px;
-            line-height: 164%;
-        }
-        .text-security h3 {
-            position: absolute;
-            width: 557px;
-            height: 296px;
-            left: 782px;
-            top: 5844px;
-        }
-        .contain-housing {
-            display: flex;
-        }
-        .housing {
-            position: absolute;
-            width: 560px;
-            height: 650px;
-            left: 781px;
-            top: 6304px;
-        }
-        .text-housing h1 {
-            position: absolute;
-            width: 217px;
-            height: 81px;
-            left: 142px;
-            top: 6304px;
-        }
-        #hhr {
-            position: absolute;
-            width: 128.25px;
-            height: 0px;
-            left: 142px;
-            top: 6410px;
-            border: 2px solid #F9A11B;
-        }
-        .text-housing h3 {
-            position: absolute;
-            width: 608px;
-            height: 473px;
-            left: 131px;
-            top: 6506px;
-        }
-        .text-housing p {
-            position: absolute;
-            width: 604px;
-            height: 80px;
-            left: 132px;
-            top: 6426px;
-            font-family: Poppins;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 20px;
-            line-height: 164%;
-            color: #000000;
-        }
-        .contain-tourism {
-            display: flex;
-        }
-        .tour {
-            position: absolute;
-            width: 560px;
-            height: 650px;
-            left: 124px;
-            top: 7098px;
-        }
-        .text-tourism h1 {
-            position: absolute;
-            width: 217px;
-            height: 81px;
-            left: 779px;
-            top: 7083px;
-        }
-        #thr {
-            position: absolute;
-            width: 128.25px;
-            height: 0px;
-            left: 779px;
-            top: 7190px;
-            border: 2px solid #F9A11B;
-        }
-        .text-tourism p {
-            position: absolute;
-            width: 560px;
-            height: 66px;
-            left: 779px;
-            top: 7204px;
-            font-family: Poppins;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 20px;
-            line-height: 164%;
-            color: #000000;
-        }
-        .text-tourism h3 {
-            position: absolute;
-            width: 567px;
-            height: 427px;
-            left: 772px;
-            top: 7293px;
-            line-height: 40px;
-        }
-        .contain-employment {
-            display: flex;
-        }
-        .employee {
-            position: absolute;
-            width: 560px;
-            height: 650px;
-            left: 773px;
-            top: 7895px;
-        }
-        .text-employment h1 {
-            position: absolute;
-            width: 337px;
-            height: 81px;
-            left: 129px;
-            top: 7895px;
-        }
-        #emhr {
-            position: absolute;
-            width: 128.25px;
-            height: 0px;
-            left: 128px;
-            top: 8000px;
-            border: 2px solid #F9A11B;
-        }
-        .text-employment p {
-            position: absolute;
-            width: 604px;
-            height: 80px;
-            left: 130px;
-            top: 8017px;
-            font-family: Poppins;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 20px;
-            line-height: 164%;
-            color: #000000;
-        }
-        .text-employment h3 {
-            position: absolute;
-            width: 606px;
-            height: 360px;
-            left: 128px;
-            top: 8138px;
-            line-height: 50px;
-        }
-        hr {
-            display: block;
-        }
-    }
+ .container-banner {
+     width: 768px;
+     height: 458px;
+     left: 0px;
+     top: 20px;
+     position: absolute;
+ }
+ 
+ img {
+     width: 750px;
+ }
+ 
+ .imgg {
+     width: 768px;
+     height: 458px;
+     left: 0px;
+     top: 96px;
+ }
+ 
+ h1 {
+     font-family: Poppins;
+     font-style: normal;
+     font-weight: bold;
+     font-size: 54px;
+     line-height: 81px;
+     letter-spacing: -0.04em;
+     color: #00B9BC;
+     text-align: left;
+ }
+ 
+ h3 {
+     font-family: Poppins;
+     font-style: normal;
+     font-weight: normal;
+     font-size: 24px;
+     line-height: 36px;
+     text-align: center;
+     color: #444444;
+     text-align: left;
+ }
+ 
+ p {
+     font-family: Poppins;
+     font-style: normal;
+     font-weight: normal;
+     font-size: 24px;
+     line-height: 36px;
+     text-align: center;
+     color: #444444;
+     text-align: left;
+ }
+ 
+ .promise h3 {
+     width: 655px;
+     height: 96px;
+     left: 56px;
+     top: 626px;
+ }
+ 
+ .promise p {
+     width: 496px;
+     height: 96px;
+     left: 472px;
+     top: 1260px;
+     color: white;
+ }
+ 
+ #grid {
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+ }
+ 
+ hr {
+     display: none;
+ }
+ /* MEDIA QUERY */
+ 
+ @media only screen and (min-width: 1000px) {
+     body {
+         overflow-x: hidden;
+         height: 100%;
+     }
+     .contain-banner img {
+         background-color: #048D8F;
+         position: absolute;
+         width: 1440px;
+         height: 458.44px;
+         left: 0px;
+         top: 96px;
+         background: url("images/Rectangle 4.jpg"), #048D8F;
+     }
+     h3 {
+         font-family: Poppins;
+         font-style: normal;
+         font-weight: normal;
+         font-size: 20px;
+         line-height: 164%;
+         display: flex;
+         align-items: center;
+         color: #000000;
+     }
+     h1 {
+         font-family: Poppins;
+         font-style: normal;
+         font-weight: bold;
+         font-size: 54px;
+         line-height: 81px;
+         letter-spacing: -0.04em;
+         color: #00B9BC;
+     }
+     .promise p {
+         position: absolute;
+         width: 496px;
+         height: 96px;
+         left: 472px;
+         top: 260px;
+         font-family: Poppins;
+         font-style: normal;
+         font-weight: bold;
+         font-size: 81px;
+         line-height: 121px;
+         letter-spacing: -0.04em;
+         color: #FFFFFF;
+     }
+     .promise h3 {
+         position: absolute;
+         width: 753px;
+         height: 96px;
+         left: 344px;
+         top: 608px;
+     }
+     .contain-edu {
+         display: flex;
+     }
+     .education {
+         position: absolute;
+         width: 560px;
+         height: 660px;
+         left: 125px;
+         top: 746px;
+     }
+     .text-edu h1 {
+         width: 263px;
+         height: 81px;
+         left: 774px;
+         top: 720px;
+         line-height: 81px;
+         letter-spacing: -0.04em;
+         position: absolute;
+     }
+     #edhr {
+         position: absolute;
+         width: 128.25px;
+         height: 0px;
+         left: 774px;
+         top: 820px;
+         border: 2px solid #F9A11B;
+     }
+     .text-edu p {
+         position: absolute;
+         width: 569px;
+         height: 97px;
+         left: 774px;
+         top: 840px;
+         font-family: Poppins;
+         font-style: normal;
+         font-weight: normal;
+         font-size: 20px;
+         line-height: 164%;
+         color: #000000;
+     }
+     .text-edu h3 {
+         position: absolute;
+         width: 534px;
+         height: 524px;
+         left: 774px;
+         top: 906px;
+     }
+     .contain-health {
+         display: flex;
+     }
+     .healthcare {
+         position: absolute;
+         width: 560px;
+         height: 650px;
+         left: 776px;
+         top: 1540px;
+     }
+     .text-health h1 {
+         position: absolute;
+         width: 290px;
+         height: 81px;
+         left: 128px;
+         top: 1540px;
+     }
+     #hehr {
+         position: absolute;
+         width: 128.25px;
+         height: 0px;
+         left: 128px;
+         top: 1650px;
+         border: 2px solid #F9A11B;
+     }
+     .text-health h3 {
+         position: absolute;
+         width: 606px;
+         height: 532px;
+         left: 124px;
+         top: 1661px;
+         line-height: 40px;
+     }
+     .contain-economy {
+         display: flex;
+     }
+     .economy {
+         position: absolute;
+         width: 560px;
+         height: 650px;
+         left: 124px;
+         top: 2350.28px;
+     }
+     .text-eco h1 {
+         position: absolute;
+         width: 246px;
+         height: 81px;
+         left: 772px;
+         top: 2342px;
+     }
+     #echr {
+         position: absolute;
+         width: 128.25px;
+         height: 0px;
+         left: 772px;
+         top: 2445px;
+         border: 2px solid #F9A11B;
+     }
+     .text-eco p {
+         position: absolute;
+         width: 560px;
+         height: 403px;
+         left: 772px;
+         top: 2469px;
+         font-family: Poppins;
+         font-style: normal;
+         font-weight: normal;
+         font-size: 20px;
+         line-height: 164%;
+         color: #000000;
+     }
+     .text-eco h3 {
+         position: absolute;
+         width: 560px;
+         height: 403px;
+         left: 772px;
+         top: 2569px;
+     }
+     .contain-agric {
+         display: flex;
+     }
+     .farmlands {
+         position: absolute;
+         width: 560px;
+         height: 650px;
+         left: 780px;
+         top: 3146px;
+     }
+     .text-agric h1 {
+         position: absolute;
+         width: 294px;
+         height: 81px;
+         left: 132px;
+         top: 3146px;
+     }
+     #aghr {
+         position: absolute;
+         width: 128.25px;
+         height: 0px;
+         left: 132px;
+         top: 3257px;
+         border: 2px solid #F9A11B;
+     }
+     .text-agric p {
+         position: absolute;
+         width: 604px;
+         height: 165px;
+         left: 132px;
+         top: 3264px;
+         font-family: Poppins;
+         font-style: normal;
+         font-weight: normal;
+         font-size: 20px;
+         line-height: 164%;
+         color: #000000;
+     }
+     .text-agric h3 {
+         position: absolute;
+         width: 577px;
+         height: 349px;
+         left: 129px;
+         top: 3448px;
+         line-height: 40px;
+     }
+     .contain-power {
+         display: flex;
+     }
+     .powerlines {
+         position: absolute;
+         width: 560px;
+         height: 650px;
+         left: 129px;
+         top: 3938px;
+     }
+     .text-power h1 {
+         position: absolute;
+         width: 163px;
+         height: 81px;
+         left: 784px;
+         top: 3910px;
+     }
+     #pohr {
+         position: absolute;
+         width: 128.25px;
+         height: 0px;
+         left: 784px;
+         top: 4011px;
+         border: 2px solid #F9A11B;
+     }
+     .text-power p {
+         position: absolute;
+         width: 560px;
+         height: 99px;
+         left: 782px;
+         top: 4047px;
+         font-family: Poppins;
+         font-style: normal;
+         font-weight: normal;
+         font-size: 20px;
+         line-height: 164%;
+         color: #000000;
+     }
+     .text-power h3 {
+         position: absolute;
+         width: 561px;
+         height: 426px;
+         left: 781px;
+         top: 4172px;
+         line-height: 40px;
+     }
+     .contain-water {
+         display: flex;
+     }
+     .watersupply {
+         position: absolute;
+         width: 560px;
+         height: 650px;
+         left: 779px;
+         top: 4724px;
+     }
+     .text-water h1 {
+         position: absolute;
+         width: 353px;
+         height: 81px;
+         left: 131px;
+         top: 4724px;
+     }
+     #wahr {
+         position: absolute;
+         width: 128.25px;
+         height: 0px;
+         left: 131px;
+         top: 4830px;
+         border: 2px solid #F9A11B;
+     }
+     .text-water p {
+         position: absolute;
+         width: 604px;
+         height: 80px;
+         left: 131px;
+         top: 4852px;
+         line-height: 70px;
+         font-family: Poppins;
+         font-style: normal;
+         font-weight: normal;
+         font-size: 20px;
+         line-height: 164%;
+         color: #000000;
+     }
+     .text-water h3 {
+         position: absolute;
+         width: 608px;
+         height: 442px;
+         left: 127px;
+         top: 4932px;
+     }
+     .contain-security {
+         display: flex;
+     }
+     .secure {
+         position: absolute;
+         width: 560px;
+         height: 650px;
+         left: 127px;
+         top: 5516px;
+     }
+     .text-security h1 {
+         position: absolute;
+         width: 216px;
+         height: 81px;
+         left: 782px;
+         top: 5501px;
+         font-family: Poppins;
+         font-style: normal;
+         font-weight: bold;
+         font-size: 54px;
+         line-height: 81px;
+         letter-spacing: -0.04em;
+         color: #00B9BC;
+     }
+     #sehr {
+         position: absolute;
+         width: 128.25px;
+         height: 0px;
+         left: 782px;
+         top: 5610px;
+         border: 2px solid #F9A11B;
+     }
+     .text-security p {
+         position: absolute;
+         width: 560px;
+         height: 198px;
+         left: 785px;
+         top: 5623px;
+         font-family: Poppins;
+         font-style: normal;
+         font-weight: normal;
+         font-size: 20px;
+         line-height: 164%;
+     }
+     .text-security h3 {
+         position: absolute;
+         width: 557px;
+         height: 296px;
+         left: 782px;
+         top: 5844px;
+     }
+     .contain-housing {
+         display: flex;
+     }
+     .housing {
+         position: absolute;
+         width: 560px;
+         height: 650px;
+         left: 781px;
+         top: 6304px;
+     }
+     .text-housing h1 {
+         position: absolute;
+         width: 217px;
+         height: 81px;
+         left: 142px;
+         top: 6304px;
+     }
+     #hhr {
+         position: absolute;
+         width: 128.25px;
+         height: 0px;
+         left: 142px;
+         top: 6410px;
+         border: 2px solid #F9A11B;
+     }
+     .text-housing h3 {
+         position: absolute;
+         width: 608px;
+         height: 473px;
+         left: 131px;
+         top: 6506px;
+     }
+     .text-housing p {
+         position: absolute;
+         width: 604px;
+         height: 80px;
+         left: 132px;
+         top: 6426px;
+         font-family: Poppins;
+         font-style: normal;
+         font-weight: normal;
+         font-size: 20px;
+         line-height: 164%;
+         color: #000000;
+     }
+     .contain-tourism {
+         display: flex;
+     }
+     .tour {
+         position: absolute;
+         width: 560px;
+         height: 650px;
+         left: 124px;
+         top: 7098px;
+     }
+     .text-tourism h1 {
+         position: absolute;
+         width: 217px;
+         height: 81px;
+         left: 779px;
+         top: 7083px;
+     }
+     #thr {
+         position: absolute;
+         width: 128.25px;
+         height: 0px;
+         left: 779px;
+         top: 7190px;
+         border: 2px solid #F9A11B;
+     }
+     .text-tourism p {
+         position: absolute;
+         width: 560px;
+         height: 66px;
+         left: 779px;
+         top: 7204px;
+         font-family: Poppins;
+         font-style: normal;
+         font-weight: normal;
+         font-size: 20px;
+         line-height: 164%;
+         color: #000000;
+     }
+     .text-tourism h3 {
+         position: absolute;
+         width: 567px;
+         height: 427px;
+         left: 772px;
+         top: 7293px;
+         line-height: 40px;
+     }
+     .contain-employment {
+         display: flex;
+     }
+     .employee {
+         position: absolute;
+         width: 560px;
+         height: 650px;
+         left: 773px;
+         top: 7895px;
+     }
+     .text-employment h1 {
+         position: absolute;
+         width: 337px;
+         height: 81px;
+         left: 129px;
+         top: 7895px;
+     }
+     #emhr {
+         position: absolute;
+         width: 128.25px;
+         height: 0px;
+         left: 128px;
+         top: 8000px;
+         border: 2px solid #F9A11B;
+     }
+     .text-employment p {
+         position: absolute;
+         width: 604px;
+         height: 80px;
+         left: 130px;
+         top: 8017px;
+         font-family: Poppins;
+         font-style: normal;
+         font-weight: normal;
+         font-size: 20px;
+         line-height: 164%;
+         color: #000000;
+     }
+     .text-employment h3 {
+         position: absolute;
+         width: 606px;
+         height: 360px;
+         left: 128px;
+         top: 8138px;
+         line-height: 50px;
+     }
+     hr {
+         display: block;
+     }
+ }
